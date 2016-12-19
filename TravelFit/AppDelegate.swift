@@ -16,7 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        setUpTabBars()
+
         return true
     }
 
@@ -72,6 +73,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         })
         return container
     }()
+
+    // MARK: - TabBars Setup
+
+    func setUpTabBars() {
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+
+        window?.rootViewController = CustomTabBarController()
+    }
 
     // MARK: - Core Data Saving support
 
