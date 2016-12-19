@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		F284C82C1E02719B00D104D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F284C82B1E02719B00D104D5 /* AppDelegate.swift */; };
-		F284C82E1E02719B00D104D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F284C82D1E02719B00D104D5 /* ViewController.swift */; };
-		F284C8311E02719B00D104D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F284C82F1E02719B00D104D5 /* Main.storyboard */; };
+		F284C82E1E02719B00D104D5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F284C82D1E02719B00D104D5 /* MapViewController.swift */; };
 		F284C8341E02719B00D104D5 /* TravelFit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F284C8321E02719B00D104D5 /* TravelFit.xcdatamodeld */; };
 		F284C8361E02719B00D104D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F284C8351E02719B00D104D5 /* Assets.xcassets */; };
 		F284C8391E02719B00D104D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F284C8371E02719B00D104D5 /* LaunchScreen.storyboard */; };
 		F284C8441E02719C00D104D5 /* TravelFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F284C8431E02719C00D104D5 /* TravelFitTests.swift */; };
+		F2FF81E31E07ADD70093C810 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF81E21E07ADD70093C810 /* CustomTabBarController.swift */; };
+		F2FF81E81E07AF880093C810 /* ProfileSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF81E71E07AF880093C810 /* ProfileSettingsViewController.swift */; };
+		F2FF81EA1E07B05C0093C810 /* PassPurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF81E91E07B05C0093C810 /* PassPurchaseViewController.swift */; };
+		F2FF81EC1E07B09E0093C810 /* PaymentSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF81EB1E07B09E0093C810 /* PaymentSummaryViewController.swift */; };
+		F2FF81F01E07B1090093C810 /* LoginRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF81EF1E07B1090093C810 /* LoginRegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +33,7 @@
 /* Begin PBXFileReference section */
 		F284C8281E02719B00D104D5 /* TravelFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F284C82B1E02719B00D104D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F284C82D1E02719B00D104D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F284C8301E02719B00D104D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F284C82D1E02719B00D104D5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../MapViewController.swift; sourceTree = "<group>"; };
 		F284C8331E02719B00D104D5 /* TravelFit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TravelFit.xcdatamodel; sourceTree = "<group>"; };
 		F284C8351E02719B00D104D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F284C8381E02719B00D104D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +41,11 @@
 		F284C83F1E02719B00D104D5 /* TravelFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F284C8431E02719C00D104D5 /* TravelFitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelFitTests.swift; sourceTree = "<group>"; };
 		F284C8451E02719C00D104D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FF81E21E07ADD70093C810 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTabBarController.swift; path = ../CustomTabBarController.swift; sourceTree = "<group>"; };
+		F2FF81E71E07AF880093C810 /* ProfileSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSettingsViewController.swift; sourceTree = "<group>"; };
+		F2FF81E91E07B05C0093C810 /* PassPurchaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassPurchaseViewController.swift; sourceTree = "<group>"; };
+		F2FF81EB1E07B09E0093C810 /* PaymentSummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentSummaryViewController.swift; sourceTree = "<group>"; };
+		F2FF81EF1E07B1090093C810 /* LoginRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +87,10 @@
 		F284C82A1E02719B00D104D5 /* TravelFit */ = {
 			isa = PBXGroup;
 			children = (
+				F2FF81E41E07AEEC0093C810 /* Controllers */,
+				F2FF81E51E07AEEC0093C810 /* Models */,
+				F2FF81E61E07AEEC0093C810 /* UI */,
 				F284C82B1E02719B00D104D5 /* AppDelegate.swift */,
-				F284C82D1E02719B00D104D5 /* ViewController.swift */,
-				F284C82F1E02719B00D104D5 /* Main.storyboard */,
 				F284C8351E02719B00D104D5 /* Assets.xcassets */,
 				F284C8371E02719B00D104D5 /* LaunchScreen.storyboard */,
 				F284C83A1E02719B00D104D5 /* Info.plist */,
@@ -97,6 +106,33 @@
 				F284C8451E02719C00D104D5 /* Info.plist */,
 			);
 			path = TravelFitTests;
+			sourceTree = "<group>";
+		};
+		F2FF81E41E07AEEC0093C810 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F2FF81E21E07ADD70093C810 /* CustomTabBarController.swift */,
+				F2FF81EF1E07B1090093C810 /* LoginRegisterViewController.swift */,
+				F284C82D1E02719B00D104D5 /* MapViewController.swift */,
+				F2FF81E91E07B05C0093C810 /* PassPurchaseViewController.swift */,
+				F2FF81EB1E07B09E0093C810 /* PaymentSummaryViewController.swift */,
+				F2FF81E71E07AF880093C810 /* ProfileSettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F2FF81E51E07AEEC0093C810 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F2FF81E61E07AEEC0093C810 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,7 +220,6 @@
 			files = (
 				F284C8391E02719B00D104D5 /* LaunchScreen.storyboard in Resources */,
 				F284C8361E02719B00D104D5 /* Assets.xcassets in Resources */,
-				F284C8311E02719B00D104D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,8 +237,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F284C82E1E02719B00D104D5 /* ViewController.swift in Sources */,
+				F2FF81EA1E07B05C0093C810 /* PassPurchaseViewController.swift in Sources */,
+				F284C82E1E02719B00D104D5 /* MapViewController.swift in Sources */,
 				F284C8341E02719B00D104D5 /* TravelFit.xcdatamodeld in Sources */,
+				F2FF81F01E07B1090093C810 /* LoginRegisterViewController.swift in Sources */,
+				F2FF81E81E07AF880093C810 /* ProfileSettingsViewController.swift in Sources */,
+				F2FF81EC1E07B09E0093C810 /* PaymentSummaryViewController.swift in Sources */,
+				F2FF81E31E07ADD70093C810 /* CustomTabBarController.swift in Sources */,
 				F284C82C1E02719B00D104D5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,14 +267,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F284C82F1E02719B00D104D5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F284C8301E02719B00D104D5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F284C8371E02719B00D104D5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -410,6 +442,7 @@
 				F284C84A1E02719C00D104D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F284C84B1E02719C00D104D5 /* Build configuration list for PBXNativeTarget "TravelFitTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +451,7 @@
 				F284C84D1E02719C00D104D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
