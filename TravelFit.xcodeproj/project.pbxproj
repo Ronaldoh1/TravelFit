@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91544B1845F50AAB75EBCD75 /* Pods_TravelFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F199D3355975D37A6E64D68 /* Pods_TravelFit.framework */; };
 		F284C82C1E02719B00D104D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F284C82B1E02719B00D104D5 /* AppDelegate.swift */; };
 		F284C82E1E02719B00D104D5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F284C82D1E02719B00D104D5 /* MapViewController.swift */; };
 		F284C8341E02719B00D104D5 /* TravelFit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F284C8321E02719B00D104D5 /* TravelFit.xcdatamodeld */; };
@@ -31,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B8BEE451DE353828B18157F /* Pods-TravelFit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelFit.release.xcconfig"; path = "Pods/Target Support Files/Pods-TravelFit/Pods-TravelFit.release.xcconfig"; sourceTree = "<group>"; };
+		2F199D3355975D37A6E64D68 /* Pods_TravelFit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelFit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		874BB2A80AEC92DB10DE1217 /* Pods-TravelFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelFit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravelFit/Pods-TravelFit.debug.xcconfig"; sourceTree = "<group>"; };
 		F284C8281E02719B00D104D5 /* TravelFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F284C82B1E02719B00D104D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F284C82D1E02719B00D104D5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../MapViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91544B1845F50AAB75EBCD75 /* Pods_TravelFit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +71,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D107731F0B47A1FFD1194FF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F199D3355975D37A6E64D68 /* Pods_TravelFit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1A3926839B4EB42246CF77E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				874BB2A80AEC92DB10DE1217 /* Pods-TravelFit.debug.xcconfig */,
+				2B8BEE451DE353828B18157F /* Pods-TravelFit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F284C81F1E02719900D104D5 = {
 			isa = PBXGroup;
 			children = (
 				F284C82A1E02719B00D104D5 /* TravelFit */,
 				F284C8421E02719B00D104D5 /* TravelFitTests */,
 				F284C8291E02719B00D104D5 /* Products */,
+				F1A3926839B4EB42246CF77E /* Pods */,
+				D107731F0B47A1FFD1194FF0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F284C8481E02719C00D104D5 /* Build configuration list for PBXNativeTarget "TravelFit" */;
 			buildPhases = (
+				417763CCFA9DDCA412A6EA25 /* [CP] Check Pods Manifest.lock */,
 				F284C8241E02719900D104D5 /* Sources */,
 				F284C8251E02719900D104D5 /* Frameworks */,
 				F284C8261E02719900D104D5 /* Resources */,
+				4563C5EB8323CB66A910932B /* [CP] Embed Pods Frameworks */,
+				D696768EF8088A57C0C79D06 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,6 +258,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		417763CCFA9DDCA412A6EA25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4563C5EB8323CB66A910932B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TravelFit/Pods-TravelFit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D696768EF8088A57C0C79D06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TravelFit/Pods-TravelFit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F284C8241E02719900D104D5 /* Sources */ = {
@@ -373,6 +448,7 @@
 		};
 		F284C8491E02719C00D104D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 874BB2A80AEC92DB10DE1217 /* Pods-TravelFit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TravelFit/Info.plist;
@@ -385,6 +461,7 @@
 		};
 		F284C84A1E02719C00D104D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B8BEE451DE353828B18157F /* Pods-TravelFit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TravelFit/Info.plist;
