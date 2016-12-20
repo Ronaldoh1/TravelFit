@@ -81,7 +81,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
 
-        window?.rootViewController = CustomTabBarController()
+        window?.rootViewController = TFTabBarController()
     }
 
     // MARK: - Core Data Saving support

@@ -1,5 +1,5 @@
 //
-//  CustomTabBarController.swift
+//  TFTabBarController.swift
 //  TravelFit
 //
 //  Created by Ronald Hernandez on 12/18/16.
@@ -8,28 +8,24 @@
 
 import UIKit
 
-class CustomTabBarController: UITabBarController {
+class TFTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let mapViewController = MapViewController()
+        let mapViewController = TFMapViewController()
         mapViewController.tabBarItem.title = "Gyms"
 
-        let passPurchaseViewController = PassPurchaseViewController()
+        let passPurchaseViewController = TFPassPurchaseViewController()
         passPurchaseViewController.title = "Purchase"
 
-        let paymentSummaryViewController = PaymentSummaryViewController()
+        let paymentSummaryViewController = TFPaymentSummaryViewController()
         paymentSummaryViewController.title = "Summary"
 
-        let profileSettingsViewController = ProfileSettingsViewController()
+        let profileSettingsViewController = TFSettingsViewController()
         profileSettingsViewController.title = "Profile"
 
         viewControllers = [mapViewController, passPurchaseViewController, paymentSummaryViewController, profileSettingsViewController]
-
     }
-
+    
 }
-
-// MARK - TODO: 
-// add tab bar icons.
