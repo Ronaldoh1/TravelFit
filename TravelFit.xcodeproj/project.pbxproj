@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		91544B1845F50AAB75EBCD75 /* Pods_TravelFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F199D3355975D37A6E64D68 /* Pods_TravelFit.framework */; };
 		F28434E01E08E75D002ED362 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28434BA1E08E75D002ED362 /* AppDelegate.swift */; };
-		F28434E31E08E75D002ED362 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28434BF1E08E75D002ED362 /* MapViewController.swift */; };
+		F28434E31E08E75D002ED362 /* TFMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28434BF1E08E75D002ED362 /* TFMapViewController.swift */; };
 		F28434E81E08E935002ED362 /* TFRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28434E71E08E935002ED362 /* TFRegistrationViewController.swift */; };
 		F28434EA1E08E998002ED362 /* TFLoginRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28434E91E08E998002ED362 /* TFLoginRegisterViewController.swift */; };
 		F28434EC1E08E99D002ED362 /* TFPaymentSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28434EB1E08E99D002ED362 /* TFPaymentSummaryViewController.swift */; };
@@ -37,7 +37,7 @@
 		2F199D3355975D37A6E64D68 /* Pods_TravelFit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelFit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		874BB2A80AEC92DB10DE1217 /* Pods-TravelFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelFit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravelFit/Pods-TravelFit.debug.xcconfig"; sourceTree = "<group>"; };
 		F28434BA1E08E75D002ED362 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = TravelFit/Common/AppDelegate.swift; sourceTree = "<group>"; };
-		F28434BF1E08E75D002ED362 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../MapViewController.swift; sourceTree = "<group>"; };
+		F28434BF1E08E75D002ED362 /* TFMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TFMapViewController.swift; path = ../TFMapViewController.swift; sourceTree = "<group>"; };
 		F28434E71E08E935002ED362 /* TFRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFRegistrationViewController.swift; sourceTree = "<group>"; };
 		F28434E91E08E998002ED362 /* TFLoginRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFLoginRegisterViewController.swift; sourceTree = "<group>"; };
 		F28434EB1E08E99D002ED362 /* TFPaymentSummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFPaymentSummaryViewController.swift; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 		F28434BE1E08E75D002ED362 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F28434BF1E08E75D002ED362 /* MapViewController.swift */,
+				F28434BF1E08E75D002ED362 /* TFMapViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -565,7 +565,7 @@
 				F28434EC1E08E99D002ED362 /* TFPaymentSummaryViewController.swift in Sources */,
 				F28434E01E08E75D002ED362 /* AppDelegate.swift in Sources */,
 				F28434EE1E08E9A7002ED362 /* TFProfileSettingsViewController.swift in Sources */,
-				F28434E31E08E75D002ED362 /* MapViewController.swift in Sources */,
+				F28434E31E08E75D002ED362 /* TFMapViewController.swift in Sources */,
 				F28434F51E08EA0C002ED362 /* TFTabBarController.swift in Sources */,
 				F28434EA1E08E998002ED362 /* TFLoginRegisterViewController.swift in Sources */,
 				F284C8341E02719B00D104D5 /* TravelFit.xcdatamodeld in Sources */,
