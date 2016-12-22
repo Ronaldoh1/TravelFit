@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F284C82C1E02719B00D104D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F284C82B1E02719B00D104D5 /* AppDelegate.swift */; };
-		F284C82E1E02719B00D104D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F284C82D1E02719B00D104D5 /* ViewController.swift */; };
-		F284C8311E02719B00D104D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F284C82F1E02719B00D104D5 /* Main.storyboard */; };
+		91544B1845F50AAB75EBCD75 /* Pods_TravelFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F199D3355975D37A6E64D68 /* Pods_TravelFit.framework */; };
+		F28434E01E08E75D002ED362 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28434BA1E08E75D002ED362 /* AppDelegate.swift */; };
+		F28434E31E08E75D002ED362 /* TFMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28434BF1E08E75D002ED362 /* TFMapViewController.swift */; };
+		F28434E81E08E935002ED362 /* TFRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28434E71E08E935002ED362 /* TFRegistrationViewController.swift */; };
+		F28434EA1E08E998002ED362 /* TFLoginRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28434E91E08E998002ED362 /* TFLoginRegisterViewController.swift */; };
+		F28434EC1E08E99D002ED362 /* TFPaymentSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28434EB1E08E99D002ED362 /* TFPaymentSummaryViewController.swift */; };
+		F28434EE1E08E9A7002ED362 /* TFProfileSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28434ED1E08E9A7002ED362 /* TFProfileSettingsViewController.swift */; };
+		F28434F01E08E9AF002ED362 /* TFPassPurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28434EF1E08E9AF002ED362 /* TFPassPurchaseViewController.swift */; };
+		F28434F51E08EA0C002ED362 /* TFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28434F21E08EA0C002ED362 /* TFTabBarController.swift */; };
 		F284C8341E02719B00D104D5 /* TravelFit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F284C8321E02719B00D104D5 /* TravelFit.xcdatamodeld */; };
 		F284C8361E02719B00D104D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F284C8351E02719B00D104D5 /* Assets.xcassets */; };
 		F284C8391E02719B00D104D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F284C8371E02719B00D104D5 /* LaunchScreen.storyboard */; };
@@ -27,14 +33,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B8BEE451DE353828B18157F /* Pods-TravelFit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelFit.release.xcconfig"; path = "Pods/Target Support Files/Pods-TravelFit/Pods-TravelFit.release.xcconfig"; sourceTree = "<group>"; };
+		2F199D3355975D37A6E64D68 /* Pods_TravelFit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelFit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		874BB2A80AEC92DB10DE1217 /* Pods-TravelFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelFit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravelFit/Pods-TravelFit.debug.xcconfig"; sourceTree = "<group>"; };
+		F28434BA1E08E75D002ED362 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = TravelFit/Common/AppDelegate.swift; sourceTree = "<group>"; };
+		F28434BF1E08E75D002ED362 /* TFMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TFMapViewController.swift; path = ../TFMapViewController.swift; sourceTree = "<group>"; };
+		F28434E71E08E935002ED362 /* TFRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFRegistrationViewController.swift; sourceTree = "<group>"; };
+		F28434E91E08E998002ED362 /* TFLoginRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFLoginRegisterViewController.swift; sourceTree = "<group>"; };
+		F28434EB1E08E99D002ED362 /* TFPaymentSummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFPaymentSummaryViewController.swift; sourceTree = "<group>"; };
+		F28434ED1E08E9A7002ED362 /* TFProfileSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFProfileSettingsViewController.swift; sourceTree = "<group>"; };
+		F28434EF1E08E9AF002ED362 /* TFPassPurchaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFPassPurchaseViewController.swift; sourceTree = "<group>"; };
+		F28434F21E08EA0C002ED362 /* TFTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFTabBarController.swift; sourceTree = "<group>"; };
 		F284C8281E02719B00D104D5 /* TravelFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F284C82B1E02719B00D104D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F284C82D1E02719B00D104D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F284C8301E02719B00D104D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F284C8331E02719B00D104D5 /* TravelFit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TravelFit.xcdatamodel; sourceTree = "<group>"; };
-		F284C8351E02719B00D104D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F284C8351E02719B00D104D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = TravelFit/Assets.xcassets; sourceTree = "<group>"; };
 		F284C8381E02719B00D104D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F284C83A1E02719B00D104D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F284C83A1E02719B00D104D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = TravelFit/Info.plist; sourceTree = "<group>"; };
 		F284C83F1E02719B00D104D5 /* TravelFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F284C8431E02719C00D104D5 /* TravelFitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelFitTests.swift; sourceTree = "<group>"; };
 		F284C8451E02719C00D104D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91544B1845F50AAB75EBCD75 /* Pods_TravelFit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +73,321 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D107731F0B47A1FFD1194FF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F199D3355975D37A6E64D68 /* Pods_TravelFit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1A3926839B4EB42246CF77E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				874BB2A80AEC92DB10DE1217 /* Pods-TravelFit.debug.xcconfig */,
+				2B8BEE451DE353828B18157F /* Pods-TravelFit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F28434B91E08E75D002ED362 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F28434F11E08EA0C002ED362 /* Controllers */,
+				F28434F31E08EA0C002ED362 /* Models */,
+				F28434F41E08EA0C002ED362 /* Views */,
+			);
+			name = Common;
+			path = TravelFit/Common;
+			sourceTree = "<group>";
+		};
+		F28434BD1E08E75D002ED362 /* GymExploration */ = {
+			isa = PBXGroup;
+			children = (
+				F28434BE1E08E75D002ED362 /* Controllers */,
+				F28434C01E08E75D002ED362 /* Models */,
+				F28434C11E08E75D002ED362 /* Services */,
+				F28434C21E08E75D002ED362 /* Views */,
+			);
+			name = GymExploration;
+			path = TravelFit/GymExploration;
+			sourceTree = "<group>";
+		};
+		F28434BE1E08E75D002ED362 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F28434BF1E08E75D002ED362 /* TFMapViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F28434C01E08E75D002ED362 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F28434C11E08E75D002ED362 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F28434C21E08E75D002ED362 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F28434C31E08E75D002ED362 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F28434C41E08E75D002ED362 /* Controllers */,
+				F28434C51E08E75D002ED362 /* Models */,
+				F28434C61E08E75D002ED362 /* Services */,
+				F28434C71E08E75D002ED362 /* Views */,
+			);
+			name = Login;
+			path = TravelFit/Login;
+			sourceTree = "<group>";
+		};
+		F28434C41E08E75D002ED362 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F28434E91E08E998002ED362 /* TFLoginRegisterViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F28434C51E08E75D002ED362 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F28434C61E08E75D002ED362 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F28434C71E08E75D002ED362 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F28434C81E08E75D002ED362 /* Payments */ = {
+			isa = PBXGroup;
+			children = (
+				F28434C91E08E75D002ED362 /* Controllers */,
+				F28434CA1E08E75D002ED362 /* Models */,
+				F28434CB1E08E75D002ED362 /* Services */,
+				F28434CD1E08E75D002ED362 /* Views */,
+			);
+			name = Payments;
+			path = TravelFit/Payments;
+			sourceTree = "<group>";
+		};
+		F28434C91E08E75D002ED362 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F28434EB1E08E99D002ED362 /* TFPaymentSummaryViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F28434CA1E08E75D002ED362 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F28434CB1E08E75D002ED362 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F28434CD1E08E75D002ED362 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F28434CE1E08E75D002ED362 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F28434CF1E08E75D002ED362 /* Controllers */,
+				F28434D01E08E75D002ED362 /* Models */,
+				F28434D11E08E75D002ED362 /* Services */,
+				F28434D31E08E75D002ED362 /* Views */,
+			);
+			name = Profile;
+			path = TravelFit/Profile;
+			sourceTree = "<group>";
+		};
+		F28434CF1E08E75D002ED362 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F28434ED1E08E9A7002ED362 /* TFProfileSettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F28434D01E08E75D002ED362 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F28434D11E08E75D002ED362 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F28434D31E08E75D002ED362 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F28434D41E08E75D002ED362 /* Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				F28434D51E08E75D002ED362 /* Controllers */,
+				F28434D61E08E75D002ED362 /* Models */,
+				F28434D71E08E75D002ED362 /* Services */,
+				F28434D91E08E75D002ED362 /* Views */,
+			);
+			name = Purchase;
+			path = TravelFit/Purchase;
+			sourceTree = "<group>";
+		};
+		F28434D51E08E75D002ED362 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F28434EF1E08E9AF002ED362 /* TFPassPurchaseViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F28434D61E08E75D002ED362 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F28434D71E08E75D002ED362 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F28434D91E08E75D002ED362 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F28434DA1E08E75D002ED362 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				F28434DB1E08E75D002ED362 /* Controllers */,
+				F28434DC1E08E75D002ED362 /* Models */,
+				F28434DD1E08E75D002ED362 /* Services */,
+				F28434DE1E08E75D002ED362 /* Views */,
+			);
+			name = Registration;
+			path = TravelFit/Registration;
+			sourceTree = "<group>";
+		};
+		F28434DB1E08E75D002ED362 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F28434E71E08E935002ED362 /* TFRegistrationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F28434DC1E08E75D002ED362 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F28434DD1E08E75D002ED362 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F28434DE1E08E75D002ED362 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F28434F11E08EA0C002ED362 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F28434F21E08EA0C002ED362 /* TFTabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F28434F31E08EA0C002ED362 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F28434F41E08EA0C002ED362 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F284C81F1E02719900D104D5 = {
 			isa = PBXGroup;
 			children = (
-				F284C82A1E02719B00D104D5 /* TravelFit */,
-				F284C8421E02719B00D104D5 /* TravelFitTests */,
+				F28434BD1E08E75D002ED362 /* GymExploration */,
+				F28434C31E08E75D002ED362 /* Login */,
+				F28434C81E08E75D002ED362 /* Payments */,
+				F28434CE1E08E75D002ED362 /* Profile */,
+				F28434D41E08E75D002ED362 /* Purchase */,
+				F28434DA1E08E75D002ED362 /* Registration */,
+				F28434B91E08E75D002ED362 /* Common */,
+				F28434BA1E08E75D002ED362 /* AppDelegate.swift */,
 				F284C8291E02719B00D104D5 /* Products */,
+				F284C8351E02719B00D104D5 /* Assets.xcassets */,
+				F284C8371E02719B00D104D5 /* LaunchScreen.storyboard */,
+				F284C83A1E02719B00D104D5 /* Info.plist */,
+				F284C8321E02719B00D104D5 /* TravelFit.xcdatamodeld */,
+				F1A3926839B4EB42246CF77E /* Pods */,
+				F284C8421E02719B00D104D5 /* TravelFitTests */,
+				D107731F0B47A1FFD1194FF0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,20 +398,6 @@
 				F284C83F1E02719B00D104D5 /* TravelFitTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F284C82A1E02719B00D104D5 /* TravelFit */ = {
-			isa = PBXGroup;
-			children = (
-				F284C82B1E02719B00D104D5 /* AppDelegate.swift */,
-				F284C82D1E02719B00D104D5 /* ViewController.swift */,
-				F284C82F1E02719B00D104D5 /* Main.storyboard */,
-				F284C8351E02719B00D104D5 /* Assets.xcassets */,
-				F284C8371E02719B00D104D5 /* LaunchScreen.storyboard */,
-				F284C83A1E02719B00D104D5 /* Info.plist */,
-				F284C8321E02719B00D104D5 /* TravelFit.xcdatamodeld */,
-			);
-			path = TravelFit;
 			sourceTree = "<group>";
 		};
 		F284C8421E02719B00D104D5 /* TravelFitTests */ = {
@@ -106,9 +416,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F284C8481E02719C00D104D5 /* Build configuration list for PBXNativeTarget "TravelFit" */;
 			buildPhases = (
+				417763CCFA9DDCA412A6EA25 /* [CP] Check Pods Manifest.lock */,
 				F284C8241E02719900D104D5 /* Sources */,
 				F284C8251E02719900D104D5 /* Frameworks */,
 				F284C8261E02719900D104D5 /* Resources */,
+				4563C5EB8323CB66A910932B /* [CP] Embed Pods Frameworks */,
+				D696768EF8088A57C0C79D06 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,7 +497,6 @@
 			files = (
 				F284C8391E02719B00D104D5 /* LaunchScreen.storyboard in Resources */,
 				F284C8361E02719B00D104D5 /* Assets.xcassets in Resources */,
-				F284C8311E02719B00D104D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,14 +509,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		417763CCFA9DDCA412A6EA25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4563C5EB8323CB66A910932B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TravelFit/Pods-TravelFit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D696768EF8088A57C0C79D06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TravelFit/Pods-TravelFit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F284C8241E02719900D104D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F284C82E1E02719B00D104D5 /* ViewController.swift in Sources */,
+				F28434EC1E08E99D002ED362 /* TFPaymentSummaryViewController.swift in Sources */,
+				F28434E01E08E75D002ED362 /* AppDelegate.swift in Sources */,
+				F28434EE1E08E9A7002ED362 /* TFProfileSettingsViewController.swift in Sources */,
+				F28434E31E08E75D002ED362 /* TFMapViewController.swift in Sources */,
+				F28434F51E08EA0C002ED362 /* TFTabBarController.swift in Sources */,
+				F28434EA1E08E998002ED362 /* TFLoginRegisterViewController.swift in Sources */,
 				F284C8341E02719B00D104D5 /* TravelFit.xcdatamodeld in Sources */,
-				F284C82C1E02719B00D104D5 /* AppDelegate.swift in Sources */,
+				F28434E81E08E935002ED362 /* TFRegistrationViewController.swift in Sources */,
+				F28434F01E08E9AF002ED362 /* TFPassPurchaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,20 +593,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F284C82F1E02719B00D104D5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F284C8301E02719B00D104D5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F284C8371E02719B00D104D5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F284C8381E02719B00D104D5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = TravelFit;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -341,6 +700,7 @@
 		};
 		F284C8491E02719C00D104D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 874BB2A80AEC92DB10DE1217 /* Pods-TravelFit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TravelFit/Info.plist;
@@ -353,6 +713,7 @@
 		};
 		F284C84A1E02719C00D104D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B8BEE451DE353828B18157F /* Pods-TravelFit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TravelFit/Info.plist;
@@ -410,6 +771,7 @@
 				F284C84A1E02719C00D104D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F284C84B1E02719C00D104D5 /* Build configuration list for PBXNativeTarget "TravelFitTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +780,7 @@
 				F284C84D1E02719C00D104D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -428,7 +791,8 @@
 				F284C8331E02719B00D104D5 /* TravelFit.xcdatamodel */,
 			);
 			currentVersion = F284C8331E02719B00D104D5 /* TravelFit.xcdatamodel */;
-			path = TravelFit.xcdatamodeld;
+			name = TravelFit.xcdatamodeld;
+			path = TravelFit/TravelFit.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
