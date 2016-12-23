@@ -20,6 +20,7 @@
 		F284C8361E02719B00D104D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F284C8351E02719B00D104D5 /* Assets.xcassets */; };
 		F284C8391E02719B00D104D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F284C8371E02719B00D104D5 /* LaunchScreen.storyboard */; };
 		F284C8441E02719C00D104D5 /* TravelFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F284C8431E02719C00D104D5 /* TravelFitTests.swift */; };
+		F29613FB1E0CBC7300D92D80 /* TFTextFieldEmailVerificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29613FA1E0CBC7300D92D80 /* TFTextFieldEmailVerificationHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		F284C83F1E02719B00D104D5 /* TravelFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F284C8431E02719C00D104D5 /* TravelFitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelFitTests.swift; sourceTree = "<group>"; };
 		F284C8451E02719C00D104D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29613FA1E0CBC7300D92D80 /* TFTextFieldEmailVerificationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFTextFieldEmailVerificationHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -404,6 +406,7 @@
 		F284C8421E02719B00D104D5 /* TravelFitTests */ = {
 			isa = PBXGroup;
 			children = (
+				F2A38FCE1E0DC46700F16238 /* Common */,
 				F284C8431E02719C00D104D5 /* TravelFitTests.swift */,
 				F284C8451E02719C00D104D5 /* Info.plist */,
 			);
@@ -413,8 +416,48 @@
 		F29613F91E0CB93400D92D80 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				F29613FA1E0CBC7300D92D80 /* TFTextFieldEmailVerificationHandler.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F2A38FCE1E0DC46700F16238 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F2A38FCF1E0DC46700F16238 /* Controllers */,
+				F2A38FD01E0DC46700F16238 /* Models */,
+				F2A38FD11E0DC46700F16238 /* Protocols */,
+				F2A38FD21E0DC46700F16238 /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F2A38FCF1E0DC46700F16238 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F2A38FD01E0DC46700F16238 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F2A38FD11E0DC46700F16238 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F2A38FD21E0DC46700F16238 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -574,6 +617,7 @@
 				F28434E01E08E75D002ED362 /* AppDelegate.swift in Sources */,
 				F219F0911E0C496B0033F726 /* TFMapViewController.swift in Sources */,
 				F28434EE1E08E9A7002ED362 /* TFProfileSettingsViewController.swift in Sources */,
+				F29613FB1E0CBC7300D92D80 /* TFTextFieldEmailVerificationHandler.swift in Sources */,
 				F28434F51E08EA0C002ED362 /* TFTabBarController.swift in Sources */,
 				F28434EA1E08E998002ED362 /* TFLoginRegisterViewController.swift in Sources */,
 				F284C8341E02719B00D104D5 /* TravelFit.xcdatamodeld in Sources */,
