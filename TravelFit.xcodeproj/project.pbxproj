@@ -95,6 +95,7 @@
 			children = (
 				F28434F11E08EA0C002ED362 /* Controllers */,
 				F28434F31E08EA0C002ED362 /* Models */,
+				F29613F91E0CB93400D92D80 /* Protocols */,
 				F28434F41E08EA0C002ED362 /* Views */,
 			);
 			name = Common;
@@ -407,6 +408,13 @@
 				F284C8451E02719C00D104D5 /* Info.plist */,
 			);
 			path = TravelFitTests;
+			sourceTree = "<group>";
+		};
+		F29613F91E0CB93400D92D80 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
