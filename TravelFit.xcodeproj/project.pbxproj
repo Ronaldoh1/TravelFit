@@ -19,7 +19,6 @@
 		F284C8341E02719B00D104D5 /* TravelFit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F284C8321E02719B00D104D5 /* TravelFit.xcdatamodeld */; };
 		F284C8361E02719B00D104D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F284C8351E02719B00D104D5 /* Assets.xcassets */; };
 		F284C8391E02719B00D104D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F284C8371E02719B00D104D5 /* LaunchScreen.storyboard */; };
-		F284C8441E02719C00D104D5 /* TravelFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F284C8431E02719C00D104D5 /* TravelFitTests.swift */; };
 		F29613FB1E0CBC7300D92D80 /* TFTextFieldEmailVerificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29613FA1E0CBC7300D92D80 /* TFTextFieldEmailVerificationHandler.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +50,6 @@
 		F284C8381E02719B00D104D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F284C83A1E02719B00D104D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = TravelFit/Info.plist; sourceTree = "<group>"; };
 		F284C83F1E02719B00D104D5 /* TravelFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F284C8431E02719C00D104D5 /* TravelFitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelFitTests.swift; sourceTree = "<group>"; };
 		F284C8451E02719C00D104D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F29613FA1E0CBC7300D92D80 /* TFTextFieldEmailVerificationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFTextFieldEmailVerificationHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -407,7 +405,6 @@
 			isa = PBXGroup;
 			children = (
 				F2A38FCE1E0DC46700F16238 /* Common */,
-				F284C8431E02719C00D104D5 /* TravelFitTests.swift */,
 				F284C8451E02719C00D104D5 /* Info.plist */,
 			);
 			path = TravelFitTests;
@@ -630,7 +627,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F284C8441E02719C00D104D5 /* TravelFitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
