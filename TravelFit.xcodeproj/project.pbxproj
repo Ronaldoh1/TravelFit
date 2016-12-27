@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		91544B1845F50AAB75EBCD75 /* Pods_TravelFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F199D3355975D37A6E64D68 /* Pods_TravelFit.framework */; };
 		F20432B71E1221CA00300A5D /* TFTextFieldState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20432B61E1221CA00300A5D /* TFTextFieldState.swift */; };
+		F20432BB1E12261600300A5D /* TFTextFieldEmailVerificationHandlerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20432BA1E12261600300A5D /* TFTextFieldEmailVerificationHandlerTest.swift */; };
 		F219F0911E0C496B0033F726 /* TFMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F219F0901E0C496B0033F726 /* TFMapViewController.swift */; };
 		F28434E01E08E75D002ED362 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28434BA1E08E75D002ED362 /* AppDelegate.swift */; };
 		F28434E81E08E935002ED362 /* TFRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28434E71E08E935002ED362 /* TFRegistrationViewController.swift */; };
@@ -38,6 +39,7 @@
 		2F199D3355975D37A6E64D68 /* Pods_TravelFit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelFit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		874BB2A80AEC92DB10DE1217 /* Pods-TravelFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelFit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravelFit/Pods-TravelFit.debug.xcconfig"; sourceTree = "<group>"; };
 		F20432B61E1221CA00300A5D /* TFTextFieldState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFTextFieldState.swift; sourceTree = "<group>"; };
+		F20432BA1E12261600300A5D /* TFTextFieldEmailVerificationHandlerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFTextFieldEmailVerificationHandlerTest.swift; sourceTree = "<group>"; };
 		F219F0901E0C496B0033F726 /* TFMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFMapViewController.swift; sourceTree = "<group>"; };
 		F28434BA1E08E75D002ED362 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = TravelFit/Common/AppDelegate.swift; sourceTree = "<group>"; };
 		F28434E71E08E935002ED362 /* TFRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFRegistrationViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,14 @@
 				2B8BEE451DE353828B18157F /* Pods-TravelFit.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F20432B81E1225E500300A5D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F20432BA1E12261600300A5D /* TFTextFieldEmailVerificationHandlerTest.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		F28434B91E08E75D002ED362 /* Common */ = {
@@ -426,7 +436,7 @@
 			children = (
 				F2A38FCF1E0DC46700F16238 /* Controllers */,
 				F2A38FD01E0DC46700F16238 /* Models */,
-				F2A38FD11E0DC46700F16238 /* Protocols */,
+				F20432B81E1225E500300A5D /* Protocols */,
 				F2A38FD21E0DC46700F16238 /* Views */,
 			);
 			path = Common;
@@ -444,13 +454,6 @@
 			children = (
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		F2A38FD11E0DC46700F16238 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 		F2A38FD21E0DC46700F16238 /* Views */ = {
@@ -517,6 +520,7 @@
 					};
 					F284C83E1E02719B00D104D5 = {
 						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = F284C8271E02719900D104D5;
 					};
@@ -631,6 +635,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20432BB1E12261600300A5D /* TFTextFieldEmailVerificationHandlerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
