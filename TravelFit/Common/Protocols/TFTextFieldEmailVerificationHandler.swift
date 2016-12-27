@@ -12,6 +12,8 @@ final class TFTextFieldEmailVerificationHandler: NSObject, UITextFieldDelegate {
 
     var responder: UITextFieldDelegate?
 
+    public var state: TFTextFieldState = .valid
+
     //MARK: UITextFieldDelegate
 
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
@@ -20,9 +22,11 @@ final class TFTextFieldEmailVerificationHandler: NSObject, UITextFieldDelegate {
             if verify(email) {
                 textField.layer.borderColor = UIColor.clear.cgColor
                 textField.layer.borderWidth = 0.0
+                state = .valid
             } else {
                 textField.layer.borderColor = UIColor.red.cgColor
                 textField.layer.borderWidth = 2.0
+                state = .invalid
             }
         }
 
