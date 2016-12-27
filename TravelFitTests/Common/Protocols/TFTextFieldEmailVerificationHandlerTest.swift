@@ -7,22 +7,30 @@
 //
 
 import XCTest
+
 @testable import TravelFit
 
 class TFTextFieldEmailVerificationHandlerTest: XCTestCase, UITextFieldDelegate {
 
-    var textField = UITextField()
-    var handler = TFTextFieldEmailVerificationHandler()
+    lazy var textField = UITextField()
+    lazy var emailHandler = TFTextFieldEmailVerificationHandler()
     
     override func setUp() {
         super.setUp()
 
-        self.textField.delegate = handler
+        self.textField.delegate = emailHandler
     }
 
-    func testInvalidInput() {
+    func testInvalidEmail() {
         textField.text = "ronaldgmail.com"
-        XCTAssertEqual(handler.state, .invalid)
+        textField.endEditing(true)
+        XCTAssertEqual(emailHandler.state, .invalid)
+    }
+
+    func testInvalidEmailWithOutDomain() {
+        textField.text = "ronald@.com"
+        textField.endEditing(true)
+        XCTAssertEqual(emailHandler.state, .invalid)
     }
     
 }
